@@ -1,4 +1,4 @@
-package isetb.tp2.tnsmartcoworking
+package isetb.tp3.tunisia_smart_coworking
 
 import org.junit.Test
 
