@@ -1,4 +1,4 @@
-package isetb.tp2.tnsmartcoworking
+package isetb.tp3.tunisia_smart_coworking
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("isetb.tp2.tnsmartcoworking", appContext.packageName)
+        assertEquals("isetb.tp3.tunisia_smart_coworking", appContext.packageName)
     }
 }
