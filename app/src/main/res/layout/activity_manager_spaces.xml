@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FAF8F4"
+    android:padding="20dp">
+
+    <!-- Header -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mes espaces"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#263238" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gérez vos espaces de coworking"
+        android:textSize="14sp"
+        android:textColor="#64748B"
+        android:layout_marginTop="6dp" />
+
+    <!-- Add Button -->
+    <Button
+        android:id="@+id/btnAddEspace"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="+ Ajouter un espace"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:backgroundTint="#168080"
+        android:layout_marginTop="24dp" />
+
+    <!-- Section Title -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vos espaces"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#263238"
+        android:layout_marginTop="28dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Spaces List -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvManagerEspaces"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

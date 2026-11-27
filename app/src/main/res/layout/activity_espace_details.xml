@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAF8F4"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/tvDetailType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BUREAU"
+            android:textColor="#168080"
+            android:textStyle="bold"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/tvDetailNom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Smart Coworking Tunis"
+            android:textColor="#263238"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textColor="#263238"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:layout_marginTop="28dp" />
+
+        <TextView
+            android:id="@+id/tvDetailDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description de l'espace..."
+            android:textColor="#64748B"
+            android:textSize="15sp"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Localisation"
+            android:textColor="#263238"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:layout_marginTop="24dp" />
+
+        <TextView
+            android:id="@+id/tvDetailVille"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tunis"
+            android:textColor="#455A64"
+            android:textSize="15sp"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/tvDetailAdresse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Centre-ville"
+            android:textColor="#64748B"
+            android:textSize="14sp"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Informations"
+            android:textColor="#263238"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:layout_marginTop="24dp" />
+
+        <TextView
+            android:id="@+id/tvDetailCapacite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Capacité : 10 personnes"
+            android:textColor="#455A64"
+            android:textSize="15sp"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/tvDetailPrix"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="15 DT / heure"
+            android:textColor="#168080"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/btnReserver"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Réserver cet espace"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:backgroundTint="#168080"
+            android:layout_marginTop="32dp" />
+
+        <Button
+            android:id="@+id/btnRetour"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Retour"
+            android:textColor="#455A64"
+            android:backgroundTint="#E8E8E8"
+            android:layout_marginTop="10dp" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAF8F4"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="28dp">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Créer un compte"
+            android:textColor="#263238"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <!-- Subtitle -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Rejoignez Tunisia Smart Coworking"
+            android:textColor="#64748B"
+            android:textSize="14sp" />
+
+        <!-- Nom -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Nom"
+            android:textColor="#64748B"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/etNom"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#168080"
+            android:hint="Votre nom"
+            android:inputType="textCapWords"
+            android:singleLine="true"
+            android:textSize="15sp" />
+
+        <!-- Prénom -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="Prénom"
+            android:textColor="#64748B"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/etPrenom"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#168080"
+            android:hint="Votre prénom"
+            android:inputType="textCapWords"
+            android:singleLine="true"
+            android:textSize="15sp" />
+
+        <!-- Nom utilisateur -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="Nom d'utilisateur"
+            android:textColor="#64748B"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/etUsername"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#168080"
+            android:hint="Votre nom d'utilisateur"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textSize="15sp" />
+
+        <!-- Email -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="Adresse e-mail"
+            android:textColor="#64748B"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#168080"
+            android:hint="nom@exemple.com"
+            android:inputType="textEmailAddress"
+            android:singleLine="true"
+            android:textSize="15sp" />
+
+        <!-- Téléphone -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="Téléphone"
+            android:textColor="#64748B"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/etTelephone"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#168080"
+            android:hint="Votre numéro de téléphone"
+            android:inputType="phone"
+            android:singleLine="true"
+            android:textSize="15sp" />
+
+        <!-- Password -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="Mot de passe"
+            android:textColor="#64748B"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#168080"
+            android:hint="Votre mot de passe"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:textSize="15sp" />
+
+        <!-- Confirm Password -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="Confirmer le mot de passe"
+            android:textColor="#64748B"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/etConfirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#168080"
+            android:hint="Confirmez votre mot de passe"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:textSize="15sp" />
+
+        <!-- Account Type -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="Type de compte"
+            android:textColor="#64748B"
+            android:textSize="14sp" />
+
+        <Spinner
+            android:id="@+id/spRole"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#168080"
+            android:spinnerMode="dropdown" />
+
+        <!-- Profession Label -->
+        <TextView
+            android:id="@+id/tvProfession"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="Profession"
+            android:textColor="#64748B"
+            android:textSize="14sp" />
+
+        <!-- Profession Input -->
+        <EditText
+            android:id="@+id/etProfession"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#168080"
+            android:hint="Votre profession"
+            android:inputType="textCapWords"
+            android:singleLine="true"
+            android:textSize="15sp" />
+
+        <!-- Company Label -->
+        <TextView
+            android:id="@+id/tvSociete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="Société / Entreprise"
+            android:textColor="#64748B"
+            android:textSize="14sp"
+            android:visibility="gone" />
+
+        <!-- Company Input -->
+        <EditText
+            android:id="@+id/etSociete"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#168080"
+            android:hint="Nom de votre société"
+            android:inputType="textCapWords"
+            android:singleLine="true"
+            android:textSize="15sp"
+            android:visibility="gone" />
+
+        <!-- Register Button -->
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginTop="26dp"
+            android:backgroundTint="#168080"
+            android:text="Créer mon compte"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <!-- Login Link -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vous avez déjà un compte ?"
+                android:textColor="#64748B"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tvLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:text="Se connecter"
+                android:textColor="#168080"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
